@@ -1,0 +1,204 @@
+                * {
+                margin: 0;
+                padding: 0;
+                font-family: montserrat;
+            }
+            
+            .logo {
+                width: 20%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .logo img {
+                width: 88%;
+                padding-right: 170px;
+            }
+            
+            .navbar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: sticky;
+                top: 0%;
+                cursor: pointer;
+                background-color: #c1121f;
+            }
+            
+            .nav-list {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                /* background-color: aliceblue;*/
+            }
+            
+            .nav-list li {
+                padding: 26px 30px;
+                list-style: none;
+            }
+            
+            .nav-list li a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+                font-weight: 500;
+            }
+            
+            .nav-list li a:hover {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+            
+            .rightnav {
+                background-color: rgba(255, 192, 203, 0);
+                width: 30%;
+                text-align: right;
+            }
+            
+            #search {
+                font-size: 17px;
+                padding: 5px;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+            }
+            
+            .burger {
+                display: none;
+                position: absolute;
+                cursor: pointer;
+                right: 5%;
+                top: 15px;
+            }
+            
+            .line {
+                width: 33px;
+                background-color: white;
+                height: 4px;
+                margin: 5px 3px;
+            }
+            
+            @media only screen and (max-width: 1140px) {
+                .nav-list {
+                    flex-direction: column;
+                }
+                .navbar {
+                    height: 447px;
+                    flex-direction: column;
+                    transition: all 0.10s ease-out;
+                    -webkit-transition: all 0.10s ease-out;
+                    -moz-transition: all 0.10s ease-out;
+                    -ms-transition: all 0.10s ease-out;
+                    -o-transition: all 0.10s ease-out;
+                }
+                .rightnav {
+                    text-align: center;
+                }
+                .box-main {
+                    flex-direction: column-reverse;
+                    max-width: 100%;
+                }
+                #search {
+                    width: 100%;
+                }
+                .burger {
+                    display: block;
+                }
+                .h-nav-resp {
+                    height: 72px;
+                }
+                .v-class-resp {
+                    opacity: 0;
+                }
+                #t {
+                    top: flex;
+                    flex-direction: column;
+                    margin-top: 50px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                }
+                #bg {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 15px;
+                    font-size: 16px;
+                    margin: 100px 50px;
+                }
+                #bg1 {
+                    background-color: aqua;
+                    height: 100%;
+                    width: auto;
+                }
+                #res {
+                    display: block;
+                    max-width: 800px;
+                    width: 800px;
+                    height: 100%;
+                    background-size: cover;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .burger {
+                    display: none;
+                    position: absolute;
+                    cursor: pointer;
+                    right: 5%;
+                    top: 15px;
+                }
+                .line {
+                    width: 33px;
+                    background-color: white;
+                    height: 4px;
+                    margin: 5px 3px;
+                }
+                @media only screen and (max-width: 1140px) {
+                    .nav-list {
+                        flex-direction: column;
+                    }
+                    .navbar {
+                        height: 447px;
+                        flex-direction: column;
+                        transition: all 0.10s ease-out;
+                        -webkit-transition: all 0.10s ease-out;
+                        -moz-transition: all 0.10s ease-out;
+                        -ms-transition: all 0.10s ease-out;
+                        -o-transition: all 0.10s ease-out;
+                    }
+                    .rightnav {
+                        text-align: center;
+                    }
+                    .box-main {
+                        flex-direction: column-reverse;
+                        max-width: 100%;
+                    }
+                    #search {
+                        width: 100%;
+                    }
+                    .burger {
+                        display: block;
+                    }
+                    .h-nav-resp {
+                        height: 72px;
+                    }
+                    .v-class-resp {
+                        opacity: 0;
+                    }
+                    .section {
+                        flex-direction: column-reverse;
+                    }
+                    .text-big {
+                        text-align: center;
+                    }
+                    .text-small {
+                        text-align: center;
+                    }
+                    .buttons {
+                        text-align: center;
+                    }
+                }
